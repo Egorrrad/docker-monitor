@@ -30,7 +30,7 @@
 1. Клонировать репозиторий:
 ```bash
 git clone https://github.com/Egorrrad/docker-monitor.git
-cd docker-docker-monitor
+cd docker-monitor
 ```
 
 2. Запустить сервисы:
