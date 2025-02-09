@@ -86,7 +86,7 @@ func checkAndSend(ip string) {
 	} else {
 		lastSuccessMap.Store(ip, lastSuccess) // Оставляем прошлое значение
 	}
-
+	lastSuccess, _ = lastSuccessMap.Load(ip)
 	status := ContainerStatus{
 		IP:          ip,
 		Alive:       alive,
